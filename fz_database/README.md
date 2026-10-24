@@ -1,29 +1,38 @@
 # fz_database
 
-原始路径：`fz_database`　|　收录文件：**1438**
+原始路径：`fz_database`　|　文件：**1438**　|　主语言：SQL 1436
 
-## 语言构成
-
-- SQL — 1436 个文件（99%）
-- Markdown — 1 个文件（0%）
-
-## 目录结构
+## 目录构成
 
 ```
-CenterDB/  (655 个文件)
-Club02/  (252 个文件)
-Fish/  (240 个文件)
-LogDB/  (104 个文件)
-Club/  (69 个文件)
-AdminSys/  (41 个文件)
-PerGameLog/  (29 个文件)
-AgentHD/  (23 个文件)
-Notify/  (21 个文件)
-./  (2 个文件)
-DBA/  (2 个文件)
+CenterDB/dbo/  — 457
+Club02/dbo/  — 246
+Fish/dbo/  — 240
+LogDB/dbo/  — 73
+Club/dbo/  — 63
+CenterDB/Game/  — 42
+CenterDB/Stat/  — 38
+AdminSys/dbo/  — 28
+AgentHD/dbo/  — 23
+CenterDB/Security/  — 17
+CenterDB/Area/  — 16
+CenterDB/Event/  — 15
+PerGameLog/dbo/  — 13
+Notify/dbo/  — 13
 ```
+
+## 主要文件
+
+- `CenterDB/dbo/Stored Procedures/PrWeb_Stat_GetDailyReport.sql`
+- `CenterDB/dbo/Stored Procedures/PrJob_AreaDataStat_Day.sql`
+- `CenterDB/dbo/Stored Procedures/_PrWeb_Stat_GetDailyAreaDetailReport.sql`
+- `CenterDB/dbo/Stored Procedures/PrJob_AreaDataStat_Month.sql`
+- `CenterDB/dbo/Stored Procedures/PrWeb_Pay_GetOrderStatList.sql`
+- `CenterDB/dbo/Stored Procedures/PrPs_UserLogon_Common.sql`
+- `CenterDB/dbo/Stored Procedures/PrPs_User_GetUserInfo.sql`
+- `CenterDB/dbo/Stored Procedures/PrWeb_Stat_GetAreaDataStat_Day.sql`
 
 ## 说明
 
-文本源码与配置的静态快照；二进制资源未收录。发布前已按本目录实际内容替换凭据、密钥、内网地址与域名。
+该工程为平台的一个组件。仅收录文本源码与配置，图片、音频等二进制资源未收录；凭据、密钥、内网地址与域名已按实际内容替换。
 
