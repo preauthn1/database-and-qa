@@ -1,6 +1,6 @@
 # database-ddynh-record
 
-原始路径：`database-ddynh-record`　|　文件：**261**　|　主语言：SQL 200, YAML 1
+原始路径：`database-ddynh-record`　|　文件：**260**　|　主语言：SQL 200, YAML 1
 
 ## 目录构成
 
