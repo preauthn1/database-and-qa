@@ -1,0 +1,26 @@
+﻿CREATE TABLE [dbo].[SlowQueryLog] (
+    [LogID]                   BIGINT          IDENTITY (1, 1) NOT NULL,
+    [session_id]              INT             NULL,
+    [login_time]              DATETIME        NULL,
+    [host_name]               VARCHAR (128)   NULL,
+    [program_name]            VARCHAR (512)   NULL,
+    [login_name]              VARCHAR (128)   NULL,
+    [nt_domain]               VARCHAR (128)   NULL,
+    [nt_user_name]            VARCHAR (128)   NULL,
+    [status]                  VARCHAR (50)    NULL,
+    [cpu_time]                INT             NULL,
+    [memory_usage]            INT             NULL,
+    [total_elapsed_time]      INT             NULL,
+    [last_request_start_time] DATETIME        NULL,
+    [last_request_end_time]   DATETIME        NULL,
+    [reads]                   INT             NULL,
+    [writes]                  INT             NULL,
+    [logical_reads]           INT             NULL,
+    [command]                 VARCHAR (50)    NULL,
+    [plan_handle]             VARBINARY (MAX) NULL,
+    [sql_handle]              VARBINARY (MAX) NULL,
+    [blocking_session_id]     INT             NULL,
+    [sql_text]                NVARCHAR (MAX)  NULL,
+    CONSTRAINT [PK_SlowQueryLog] PRIMARY KEY CLUSTERED ([LogID] ASC)
+);
+

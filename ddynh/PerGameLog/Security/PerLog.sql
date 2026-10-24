@@ -1,0 +1,7 @@
+﻿CREATE SCHEMA [PerLog]
+    AUTHORIZATION [dbo];
+
+
+
+
+

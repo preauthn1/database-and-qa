@@ -1,0 +1,21 @@
+﻿CREATE SCHEMA [ServerInfo]
+    AUTHORIZATION [dbo];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

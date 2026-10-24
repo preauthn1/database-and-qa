@@ -1,0 +1,6 @@
+﻿CREATE TABLE [Users].[RanID_Temp] (
+    [UserID] INT              IDENTITY (10000001, 1) NOT NULL,
+    [Sort]   UNIQUEIDENTIFIER NOT NULL,
+    PRIMARY KEY CLUSTERED ([UserID] ASC)
+);
+
