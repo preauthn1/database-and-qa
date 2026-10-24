@@ -1,6 +1,8 @@
 # auer_database
 
-原始路径：`auer_database`　|　文件：**1453**　|　主语言：SQL 1452
+> 本目录原始 README 见文末，本节为快照补充信息。
+
+原始路径：`auer_database`　|　文件 **1453**　|　主语言：SQL 1452
 
 ## 目录构成
 
@@ -17,22 +19,11 @@ AgentHD/dbo/  — 23
 CenterDB/Security/  — 18
 CenterDB/Area/  — 16
 CenterDB/Event/  — 15
-CenterDB/Pay/  — 13
-PerGameLog/dbo/  — 13
 ```
 
-## 主要文件
+---
 
-- `CenterDB/dbo/Stored Procedures/PrWeb_Stat_GetDailyReport.sql`
-- `CenterDB/dbo/Stored Procedures/PrJob_AreaDataStat_Day.sql`
-- `CenterDB/dbo/Stored Procedures/_PrWeb_Stat_GetDailyAreaDetailReport.sql`
-- `CenterDB/dbo/Stored Procedures/PrJob_AreaDataStat_Month.sql`
-- `CenterDB/dbo/Stored Procedures/PrWeb_Pay_GetOrderStatList.sql`
-- `CenterDB/dbo/Stored Procedures/PrPs_UserLogon_Common.sql`
-- `CenterDB/dbo/Stored Procedures/PrPs_User_GetUserInfo.sql`
-- `CenterDB/dbo/Stored Procedures/PrWeb_GetOnlineSummary.sql`
+## 原始说明
 
-## 说明
-
-该工程为平台的一个组件。仅收录文本源码与配置，图片、音频等二进制资源未收录；凭据、密钥、内网地址与域名已按实际内容替换。
+# Auer_Database
 
